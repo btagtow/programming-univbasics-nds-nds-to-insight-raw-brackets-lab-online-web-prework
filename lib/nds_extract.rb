@@ -11,7 +11,7 @@ def directors_totals(nds)
       inner_index=0 
       while inner_index<inner_len do 
         #spinner full of Hashes with keys :name and :worldwide_gross 
-        result = {nds[row_index][column_index][inner_index][:worldwide_gross]}
+        result = {nds[row_index][column_index][:name][:worldwide_gross]}
         inner_index+=1 
       end 
       column_index+=1 
