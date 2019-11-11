@@ -17,9 +17,7 @@ def directors_totals(nds)
     end 
     row_index+=1
   end 
-  pp nds 
 end 
-pp movie_total
   # Remember, it's always OK to pretty print what you get *in* to make sure
   # that you know what you're starting with!
   #
