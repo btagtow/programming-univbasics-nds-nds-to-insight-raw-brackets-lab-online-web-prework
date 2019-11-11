@@ -3,7 +3,7 @@ require 'directors_database'
 def directors_totals(nds)
   index=0 
   totals={} 
-  while i<nds.length do 
+  while index<nds.length do 
     directors_name=nds[index][:name]
     totals[directors_name]=0 
     movie_index=0 
