@@ -6,7 +6,8 @@ def directors_totals(nds)
   row_index=0 
   while row_index<nds.length do 
     column_index=0 
-    while column_index=
+    while column_index<nds[row_index].length do 
+      inner_len=nds[row_index][column_index]
   pp nds 
 end 
   
